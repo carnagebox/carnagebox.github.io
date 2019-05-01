@@ -7,11 +7,14 @@ html {
   display: table;
 }
 body {
+  color: #ebdbb2;
   background: #282828;
+  font-family: 'Roboto Slab', serif;
+}
+body.front {
   display: table-cell;
   text-align: center;
   vertical-align: middle;
-  font-family: 'Roboto Slab', serif;
 }
 .front-title {
   font-size: 3.3em;
@@ -22,7 +25,7 @@ body {
 }
 .front-contact a {
   text-decoration: none;
-  color: #a89984;
+  color: #504945;
 }
 .front-contact a:hover {
   text-decoration: underline;

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: front
 ---
 <div>
   <div class="front-title">{{ site.title }}</div>
