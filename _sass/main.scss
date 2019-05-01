@@ -16,17 +16,33 @@ body.front {
   text-align: center;
   vertical-align: middle;
 }
-.front-title {
-  font-size: 3.3em;
-  color: #fb4934;
-}
 .front-contact {
-  font-size: 0.7em;
+  font-size: 1.2em;
+  position: absolute;
+  top: 0.2em;
+  left: 0.5em;
 }
 .front-contact a {
+  color: #458588;
   text-decoration: none;
-  color: #504945;
 }
 .front-contact a:hover {
-  text-decoration: underline;
+  color: #83a598;
+}
+.front-title {
+  font-family: 'Fugaz One', cursive;
+  color: #fc4934;
+  font-size: 3.3em;
+}
+.front-ethereum {
+  margin-top: -0.4em;
+}
+.front-hrule {
+  height: 0;
+  width: 30em;
+  border-bottom: 1px solid #3c3836;
+  margin: 0 auto;
+  position: relative;
+  bottom: 2.2em;
+  z-index: -1;
 }
