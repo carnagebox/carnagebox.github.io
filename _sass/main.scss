@@ -9,7 +9,6 @@ html {
 body {
   color: #ebdbb2;
   background: #282828;
-  font-family: 'Roboto Slab', serif;
 }
 body.front {
   display: table-cell;
@@ -31,11 +30,12 @@ body.front {
   color: #689d6a;
 }
 .front-title {
-  font-family: 'Fugaz One', cursive;
+  font-family: 'Rye', cursive;
   color: #fc4934;
   font-size: 3.3em;
 }
 .front-crypto {
+  font-family: 'Crushed', cursive;
   font-size: 0.95em;
 }
 .front-crypto div {
@@ -47,9 +47,11 @@ body.front {
   border-bottom: 1px solid #3c3836;
   margin: 0 auto;
   position: relative;
-  bottom: 2.2em;
+  bottom: 1.9em;
   z-index: -1;
 }
 .front-payee {
   margin: 2em auto;
+  font-family: 'Swanky and Moo Moo', cursive;
+  font-size: 1.3em;
 }
