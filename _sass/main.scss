@@ -51,13 +51,20 @@ body.front {
   z-index: -1;
 }
 .front-payee {
+  width: 40em;
+  border: 1px solid #1d2021;
+  border-radius: 6px;
+  box-shadow: 0 1em 2em 0 #1d2021;
   margin: 2em auto;
   font-family: 'Swanky and Moo Moo', cursive;
   font-size: 1.3em;
   color: #a89984;
+  background: #32302f;
+  background-image: radial-gradient(#32302f 20%, #1d2021);
+  padding: 1em;
 }
 
 .front-payee strong {
   font-weight: normal;
-  color: #d3869b;
+  color: #8ec07c;
 }
