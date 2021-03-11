@@ -50,6 +50,13 @@ body.front {
 .front-crypto div {
   margin-top: 0.25em;
 }
+.front-crypto a {
+  color: #ebdbb2;
+  text-decoration: none;
+}
+.front-crypto a:hover {
+  text-decoration: underline;
+}
 .front-hrule {
   height: 0;
   width: 30em;
